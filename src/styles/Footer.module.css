@@ -1,0 +1,29 @@
+/* src/styles/Footer.module.css */
+.footer {
+  background-color: var(--navbar-background);
+  color: var(--text-color);
+  text-align: center;
+  padding: 1rem;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  border-top: 2px solid var(--navbar-border-color);
+}
+
+.nav {
+  margin-top: 1rem;
+}
+
+.nav a,
+.nav Link {
+  color: var(--text-color);
+  margin: 0 1rem;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav a:hover,
+.nav Link:hover {
+  color: #00bfff;
+  text-decoration: underline;
+}

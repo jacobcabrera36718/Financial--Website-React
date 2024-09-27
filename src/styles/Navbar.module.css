@@ -1,0 +1,69 @@
+.navbar {
+  background-color: var(--navbar-background); /* This should be your dark background variable */
+  color: var(--text-color);
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  border-bottom: 2px solid var(--navbar-border-color); /* Add the border */
+  width: 100%; /* Ensure the navbar spans the entire width */
+  left: 0; /* Make sure the navbar starts at the left edge */
+  box-sizing: border-box; /* Keep padding within the width */
+}
+
+/* Title styling */
+.title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.title a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+/* Navigation Links */
+.navLinks {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  padding-top: 1rem;
+}
+
+.navLinks li {
+  margin-right: 2rem;
+}
+
+.navLinks a {
+  color: var(--text-color);
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.navLinks a:hover {
+  color: #710eae;
+}
+
+/* Settings button */
+.settings {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.themeToggle {
+  background-color: var(--button-background);
+  color: var(--text-color);
+  border: 1px solid var(--text-color);
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.themeToggle:hover {
+  background-color: var(--button-hover-background);
+}

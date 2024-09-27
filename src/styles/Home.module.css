@@ -1,0 +1,23 @@
+.searchInput {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.infoSection, .newsSection {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+}
+
+.sectionHeading {
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.sectionParagraph {
+  margin: 0;
+}
